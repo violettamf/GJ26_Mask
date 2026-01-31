@@ -6,6 +6,8 @@
 [ext_resource type="Script" uid="uid://bxvn63b5x7vm8" path="res://Assets/Scripts/Azul/boton_dormitorio_azul.gd" id="3_vymr5"]
 [ext_resource type="PackedScene" uid="uid://x7m511sbyyir" path="res://Assets/Scenes/Escenas Azul/Habitaciones/patio_azul.tscn" id="4_0fxcc"]
 [ext_resource type="PackedScene" uid="uid://uqv50iqa4k7x" path="res://Assets/Scenes/Escenas Azul/Habitaciones/dormitorio_azul.tscn" id="4_lwfsv"]
+[ext_resource type="Script" uid="uid://cq4ygtvwu4owf" path="res://Assets/Scripts/Azul/boton_atico_azul.gd" id="7_0fxcc"]
+[ext_resource type="PackedScene" uid="uid://grc6y4647hm" path="res://Assets/Scenes/Escenas Azul/Habitaciones/atico_azul.tscn" id="8_jt8jd"]
 
 [node name="MansionAzul" type="Node2D" unique_id=875531274]
 
@@ -61,5 +63,7 @@ offset_right = 500.0
 offset_bottom = -100.0
 theme = ExtResource("1_3jicu")
 text = "Ático"
+script = ExtResource("7_0fxcc")
+atico_azul = ExtResource("8_jt8jd")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2029889607]

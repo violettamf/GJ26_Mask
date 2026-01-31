@@ -1,11 +1,10 @@
 [gd_scene format=3 uid="uid://grc6y4647hm"]
 
-[ext_resource type="Texture2D" uid="uid://e0o7xemwm2s8" path="res://Assets/Sprites/dormitorio.jpg" id="1_atm3m"]
+[ext_resource type="Texture2D" uid="uid://b30u5wbsb6omv" path="res://Assets/Sprites/atico.jpg" id="1_atm3m"]
 
-[node name="DormitorioAzul" type="Node2D" unique_id=2037906524]
+[node name="AticoAzul" type="Node2D" unique_id=2037906524]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1197860072]
-zoom = Vector2(0.85, 0.85)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744272139]
 texture = ExtResource("1_atm3m")

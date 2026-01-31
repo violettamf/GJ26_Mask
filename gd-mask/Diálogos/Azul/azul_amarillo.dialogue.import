@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dm3lj5fi0rhse"
+path="res://.godot/imported/azul_amarillo.dialogue-037b938930eda571fbe118cc0fac2a27.tres"
+
+[deps]
+
+source_file="res://Diálogos/Azul/azul_amarillo.dialogue"
+dest_files=["res://.godot/imported/azul_amarillo.dialogue-037b938930eda571fbe118cc0fac2a27.tres"]
+
+[params]
+
+defaults=true
