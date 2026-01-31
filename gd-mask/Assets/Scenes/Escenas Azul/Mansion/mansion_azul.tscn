@@ -2,7 +2,10 @@
 
 [ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="1_3jicu"]
 [ext_resource type="Script" uid="uid://csdxkgcc0fru4" path="res://Assets/Scripts/Azul/boton_salon_azul.gd" id="2_l73mv"]
-[ext_resource type="PackedScene" uid="uid://i3pq6twd2cuv" path="res://Assets/Scenes/Escenas Azul/Habitaciones/SalonAzul.tscn" id="3_l73mv"]
+[ext_resource type="Script" uid="uid://dro7q55wijtor" path="res://Assets/Scripts/Azul/boton_patio_azul.gd" id="3_oth1p"]
+[ext_resource type="Script" uid="uid://bxvn63b5x7vm8" path="res://Assets/Scripts/Azul/boton_dormitorio_azul.gd" id="3_vymr5"]
+[ext_resource type="PackedScene" uid="uid://x7m511sbyyir" path="res://Assets/Scenes/Escenas Azul/Habitaciones/patio_azul.tscn" id="4_0fxcc"]
+[ext_resource type="PackedScene" uid="uid://uqv50iqa4k7x" path="res://Assets/Scenes/Escenas Azul/Habitaciones/dormitorio_azul.tscn" id="4_lwfsv"]
 
 [node name="MansionAzul" type="Node2D" unique_id=875531274]
 
@@ -14,7 +17,6 @@ offset_bottom = 50.0
 theme = ExtResource("1_3jicu")
 text = "Salón"
 script = ExtResource("2_l73mv")
-salon_azul = ExtResource("3_l73mv")
 
 [node name="Cocina" type="Button" parent="." unique_id=540684045]
 offset_left = 100.0
@@ -31,6 +33,8 @@ offset_right = 500.0
 offset_bottom = 200.0
 theme = ExtResource("1_3jicu")
 text = "Patio"
+script = ExtResource("3_oth1p")
+patio_azul = ExtResource("4_0fxcc")
 
 [node name="Dormitorio" type="Button" parent="." unique_id=208033924]
 offset_left = -500.0
@@ -39,6 +43,8 @@ offset_right = -100.0
 offset_bottom = -100.0
 theme = ExtResource("1_3jicu")
 text = "Dormitorio"
+script = ExtResource("3_vymr5")
+dormitorio_azul = ExtResource("4_lwfsv")
 
 [node name="Comedor" type="Button" parent="." unique_id=723299884]
 offset_left = -500.0
