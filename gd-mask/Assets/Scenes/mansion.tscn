@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://mpl0xk1atx57"]
+[gd_scene load_steps=2 format=3 uid="uid://mpl0xk1atx57"]
+
+[ext_resource type="Script" uid="uid://bag6754f80uuq" path="res://Assets/Scenes/mansion_controller.gd" id="1_pkrax"]
 
 [node name="Mansion" type="Node2D"]
+script = ExtResource("1_pkrax")
 metadata/_edit_group_ = true
