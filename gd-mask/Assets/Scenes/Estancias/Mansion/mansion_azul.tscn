@@ -14,6 +14,21 @@ offset_bottom = 50.0
 theme = ExtResource("1_3jicu")
 text = "Salón"
 
+[node name="Salir" type="Button" parent="." unique_id=1626871394]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -257.5
+offset_top = 250.0
+offset_right = 257.5
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_3jicu")
+text = "Cambiar máscara"
+
 [node name="Cocina" type="Button" parent="." unique_id=540684045]
 offset_left = 100.0
 offset_top = -50.0

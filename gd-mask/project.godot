@@ -15,7 +15,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="GD_Mask"
-run/main_scene="uid://b0jvh8x5tma1c"
+run/main_scene="uid://7p7k4ebm7kpv"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -47,4 +47,9 @@ menu={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Diálogos/Azul/azul_amarillo.dialogue", "res://Diálogos/dialogo_rosa.dialogue", "res://Diálogos/dialogo_rojo.dialogue", "res://Diálogos/dialogo_verde.dialogue", "res://Diálogos/dialogo_azul.dialogue", "res://Diálogos/dialogo_amarillo.dialogue")
+locale/translations_pot_files=PackedStringArray("res://Diálogos/dialogo_rosa.dialogue", "res://Diálogos/dialogo_rojo.dialogue", "res://Diálogos/dialogo_verde.dialogue", "res://Diálogos/dialogo_azul.dialogue", "res://Diálogos/dialogo_amarillo.dialogue")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
