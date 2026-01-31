@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://grc6y4647hm"]
+
+[ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_tuwnj"]
+[ext_resource type="Texture2D" uid="uid://b30u5wbsb6omv" path="res://Assets/Sprites/atico.jpg" id="2_0lqn2"]
+
+[node name="AticoAzul" type="Node2D" unique_id=2037906524]
+script = ExtResource("1_tuwnj")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1197860072]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744272139]
+texture = ExtResource("2_0lqn2")

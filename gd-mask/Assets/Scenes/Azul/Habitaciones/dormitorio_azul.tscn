@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://uqv50iqa4k7x"]
+
+[ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_5v5gc"]
+[ext_resource type="Texture2D" uid="uid://b30u5wbsb6omv" path="res://Assets/Sprites/atico.jpg" id="2_7acwj"]
+[ext_resource type="PackedScene" uid="uid://ccrkgam6vqtin" path="res://Assets/Scenes/player.tscn" id="3_itltd"]
+
+[node name="DormitorioAzul" type="Node2D" unique_id=2037906524]
+script = ExtResource("1_5v5gc")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1197860072]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744272139]
+texture = ExtResource("2_7acwj")
+
+[node name="Player" parent="." unique_id=1586722942 instance=ExtResource("3_itltd")]
+position = Vector2(441, 171)
