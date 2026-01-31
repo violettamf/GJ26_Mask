@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b8jum6k35w078"]
+
+[ext_resource type="Script" uid="uid://xj5tqs5p5way" path="res://Assets/Scripts/Dialogos/dialogo_amarillo.gd" id="1_vyy25"]
+[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_wg36r"]
+
+[node name="Amarillo" type="Node2D" unique_id=197934423]
+script = ExtResource("1_vyy25")
+
+[node name="Boton" type="Button" parent="." unique_id=1354669375]
+self_modulate = Color(1, 1, 0, 1)
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("2_wg36r")

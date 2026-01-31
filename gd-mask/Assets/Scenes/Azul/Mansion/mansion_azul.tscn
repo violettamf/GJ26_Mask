@@ -38,14 +38,6 @@ offset_bottom = -100.0
 theme = ExtResource("1_3jicu")
 text = "Dormitorio"
 
-[node name="Comedor" type="Button" parent="." unique_id=723299884]
-offset_left = -500.0
-offset_top = 100.0
-offset_right = -100.0
-offset_bottom = 200.0
-theme = ExtResource("1_3jicu")
-text = "Comedor"
-
 [node name="Atico" type="Button" parent="." unique_id=1468789562]
 offset_left = 100.0
 offset_top = -200.0

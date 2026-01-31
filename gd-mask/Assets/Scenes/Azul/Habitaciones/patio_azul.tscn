@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_i6ga4"]
 [ext_resource type="Texture2D" uid="uid://dubxoapc4tpcx" path="res://Assets/Sprites/patio.jpg" id="2_icakf"]
-[ext_resource type="PackedScene" uid="uid://ccrkgam6vqtin" path="res://Assets/Scenes/player.tscn" id="3_kdark"]
+[ext_resource type="PackedScene" uid="uid://b8jum6k35w078" path="res://Assets/Scenes/Personajes/Amarillo.tscn" id="3_i6ga4"]
 
 [node name="PatioAzul" type="Node2D" unique_id=2037906524]
 script = ExtResource("1_i6ga4")
@@ -12,5 +12,5 @@ script = ExtResource("1_i6ga4")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744272139]
 texture = ExtResource("2_icakf")
 
-[node name="Player" parent="Sprite2D" unique_id=141035063 instance=ExtResource("3_kdark")]
-position = Vector2(385, 177)
+[node name="Amarillo" parent="." unique_id=197934423 instance=ExtResource("3_i6ga4")]
+position = Vector2(-343, 225)

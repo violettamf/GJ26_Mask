@@ -8,12 +8,21 @@ extends Node2D
 @onready var atico = $Atico
 
 func _ready() -> void:
+	salon.pressed.connect(_on_salon_pressed)
+	cocina.pressed.connect(_on_cocina_pressed)
 	patio.pressed.connect(_on_patio_pressed)
 	dormitorio.pressed.connect(_on_dormitorio_pressed)
 	atico.pressed.connect(_on_atico_pressed)
+	
+
+func _on_cocina_pressed() -> void:
+	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/cocina_azul.tscn")
 
 func _on_patio_pressed() -> void:
 	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/patio_azul.tscn")
+
+func _on_salon_pressed() -> void:
+	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/salon_azul.tscn")
 
 func _on_dormitorio_pressed() -> void:
 	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/dormitorio_azul.tscn")

@@ -23,6 +23,10 @@ config/icon="res://icon.svg"
 
 DialogueManager="*uid://c3rodes2l3gxb"
 
+[dialogue_manager]
+
+runtime/balloon_path="res://Diálogos/balloon.tscn"
+
 [display]
 
 window/size/viewport_width=1280
@@ -43,4 +47,4 @@ menu={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Diálogos/Azul/azul_amarillo.dialogue")
+locale/translations_pot_files=PackedStringArray("res://Diálogos/Azul/azul_amarillo.dialogue", "res://Diálogos/dialogo_rosa.dialogue", "res://Diálogos/dialogo_rojo.dialogue", "res://Diálogos/dialogo_verde.dialogue", "res://Diálogos/dialogo_azul.dialogue", "res://Diálogos/dialogo_amarillo.dialogue")
