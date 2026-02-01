@@ -1,64 +1,109 @@
-[gd_scene load_steps=3 format=3 uid="uid://by6khi81g2adm"]
+[gd_scene format=3 uid="uid://by6khi81g2adm"]
 
 [ext_resource type="Script" uid="uid://3b3laldc7o6q" path="res://Assets/Scripts/Rojo/mansion_rojo_menu.gd" id="1_t54x0"]
 [ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="2_18a7b"]
+[ext_resource type="Texture2D" uid="uid://ca4q0n33lvnah" path="res://Assets/Sprites/mansion.jpg" id="3_ohxww"]
+[ext_resource type="Texture2D" uid="uid://cldit28whbmn3" path="res://Assets/Sprites/rojo_mask.png" id="4_8jhur"]
 
-[node name="MansionRojo" type="Node2D"]
+[node name="MansionRojo" type="Node2D" unique_id=562418699]
 script = ExtResource("1_t54x0")
 
-[node name="Salon" type="Button" parent="."]
-offset_left = -500.0
-offset_top = -50.0
-offset_right = -100.0
-offset_bottom = 50.0
-theme = ExtResource("2_18a7b")
-text = "Salón"
-
-[node name="Salir" type="Button" parent="."]
+[node name="Salon" type="Button" parent="." unique_id=1461635397]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -257.5
-offset_top = 250.0
-offset_right = 257.5
-offset_bottom = 350.0
+offset_left = -265.0
+offset_top = 150.0
+offset_right = -65.0
+offset_bottom = 250.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("2_18a7b")
-text = "Cambiar máscara"
+text = "Salón"
 
-[node name="Cocina" type="Button" parent="."]
-offset_left = 100.0
-offset_top = -50.0
-offset_right = 500.0
-offset_bottom = 50.0
+[node name="Salir" type="Button" parent="." unique_id=700965073]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -630.0
+offset_top = -100.0
+offset_right = -377.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_18a7b")
+text = "Cambiar"
+
+[node name="Cocina" type="Button" parent="." unique_id=546542976]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 275.0
+offset_top = 150.0
+offset_right = 477.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
 theme = ExtResource("2_18a7b")
 text = "Cocina"
 
-[node name="Patio" type="Button" parent="."]
-offset_left = 100.0
-offset_top = 100.0
-offset_right = 500.0
-offset_bottom = 200.0
+[node name="Patio" type="Button" parent="." unique_id=278425414]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -585.0
+offset_top = 150.0
+offset_right = -385.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
 theme = ExtResource("2_18a7b")
 text = "Patio"
 
-[node name="Dormitorio" type="Button" parent="."]
-offset_left = -500.0
-offset_top = -200.0
-offset_right = -100.0
-offset_bottom = -100.0
+[node name="Dormitorio" type="Button" parent="." unique_id=15184433]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -325.0
+offset_top = -60.0
+offset_right = 3.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
 theme = ExtResource("2_18a7b")
 text = "Dormitorio"
 
-[node name="Atico" type="Button" parent="."]
-offset_left = 100.0
-offset_top = -200.0
-offset_right = 500.0
-offset_bottom = -100.0
+[node name="Atico" type="Button" parent="." unique_id=1501631193]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -270.0
+offset_right = -50.0
+offset_bottom = -170.0
+grow_horizontal = 2
+grow_vertical = 2
 theme = ExtResource("2_18a7b")
 text = "Ático"
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1042603725]
+
+[node name="Fondo" type="Sprite2D" parent="." unique_id=1473840125]
+z_index = -1
+texture = ExtResource("3_ohxww")
+
+[node name="Icono" type="Sprite2D" parent="." unique_id=1690828773]
+position = Vector2(-510.00003, -230.00008)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_8jhur")

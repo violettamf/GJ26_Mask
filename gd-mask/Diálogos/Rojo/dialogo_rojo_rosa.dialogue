@@ -1,3 +1,9 @@
 ~ start
-Rosa: Soy [wave]Rosa[/wave] y este es mi diálogo con Rojo.
+Morado: ¿Qué quieres?
+- ¿Cómo te llevas con el anfitrión?
+	Morado: Su gusto por el arte es exquisito, nunca le mal aconsejaría. Bueno, [wave]he realizado alguna que otra transacción sin consultarle[/wave] pero, soy yo el profesional.
+- Tenías prisa por salir del jardín, estabas tenso por algo?
+	Morado: Tengo una alergia horrible, prefiero ver las flores en un bello cuadro.
+- El anfitrión va a dar una gran noticia, ¿lo has visto?
+	Morado: No.
 => END

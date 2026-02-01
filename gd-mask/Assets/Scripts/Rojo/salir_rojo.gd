@@ -1,8 +1,8 @@
 extends Node2D
 
+@onready var volver = $Volver
 func _ready() -> void:
-	pass 
+	volver.pressed.connect(_volver)
 
-func _process(delta: float) -> void:
-	if Input.is_action_pressed("menu"):
-		get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Mansion/mansion_rojo.tscn")
+func _volver() -> void:
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Mansion/mansion_rojo.tscn")

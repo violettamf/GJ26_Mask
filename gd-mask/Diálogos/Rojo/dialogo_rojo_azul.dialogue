@@ -1,3 +1,9 @@
 ~ start
-Rosa: Soy [wave]Azul[/wave] y este es mi diálogo con Rojo.
+Azul: ¿Qué quieres?
+- ¿Cómo te llevas con el anfitrión?
+	Azul: Somos socios desde hace tiempo, lo más importante es una [wave]confianza[/wave] inquebrantable…
+- Tenías prisa por salir del jardín, estabas tenso por algo?
+	Azul: Revisaba las cuentas de la empresa *hic* nunca me había llevado un disgusto así, y tampoco había probado algo tan divertido como *hic* esa botella que sacaste de ahí.
+- El anfitrión va a dar una gran noticia, ¿lo has visto?
+	Azul: Mi exsocio… [wave]ni quiero verle[/wave]. Quiero estar solo, ¿no te había pedido una pausa [wave]hace un momento[/wave]? Tengo cosas de las que reflexionar.
 => END

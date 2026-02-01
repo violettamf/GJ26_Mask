@@ -1,16 +1,25 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkwyi63pxxikb"]
+[gd_scene format=3 uid="uid://bkwyi63pxxikb"]
 
 [ext_resource type="Script" uid="uid://uc7nwo3613gj" path="res://Assets/Scripts/Rojo/salir_rojo.gd" id="1_0jouf"]
 [ext_resource type="Texture2D" uid="uid://b4rmehy01w6ud" path="res://Assets/Sprites/cocina.jpg" id="2_h1kfn"]
 [ext_resource type="PackedScene" uid="uid://bfv34jesie2c" path="res://Assets/Scenes/Rojo/Personajes/rojo_azul.tscn" id="3_g25hv"]
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="4_h1kfn"]
 
-[node name="CocinaRojo" type="Node2D"]
+[node name="CocinaRojo" type="Node2D" unique_id=1021067837]
 script = ExtResource("1_0jouf")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=822629514]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2016000677]
 texture = ExtResource("2_h1kfn")
 
-[node name="Azul" parent="." instance=ExtResource("3_g25hv")]
-position = Vector2(444, -55)
+[node name="Azul" parent="." unique_id=1359415148 instance=ExtResource("3_g25hv")]
+position = Vector2(504, 7)
+
+[node name="Volver" type="Button" parent="." unique_id=449773432]
+offset_left = -610.0
+offset_top = -375.0
+offset_right = -419.0
+offset_bottom = -284.0
+theme = ExtResource("4_h1kfn")
+text = "Volver"

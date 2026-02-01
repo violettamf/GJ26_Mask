@@ -1,16 +1,25 @@
-[gd_scene load_steps=4 format=3 uid="uid://cjt0p136abfdy"]
+[gd_scene format=3 uid="uid://cjt0p136abfdy"]
 
 [ext_resource type="Script" uid="uid://uc7nwo3613gj" path="res://Assets/Scripts/Rojo/salir_rojo.gd" id="1_cx507"]
 [ext_resource type="Texture2D" uid="uid://dubxoapc4tpcx" path="res://Assets/Sprites/patio.jpg" id="2_7g33k"]
 [ext_resource type="PackedScene" uid="uid://bmnfadeg4bvnl" path="res://Assets/Scenes/Rojo/Personajes/rojo_amarillo.tscn" id="3_cx507"]
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="4_dc7t4"]
 
-[node name="PatioRojo" type="Node2D"]
+[node name="PatioRojo" type="Node2D" unique_id=386867343]
 script = ExtResource("1_cx507")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=678223801]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744004556]
 texture = ExtResource("2_7g33k")
 
-[node name="RojoAmarillo" parent="." instance=ExtResource("3_cx507")]
-position = Vector2(-335, 223)
+[node name="RojoAmarillo" parent="." unique_id=1298482581 instance=ExtResource("3_cx507")]
+position = Vector2(-335, 225)
+
+[node name="Volver" type="Button" parent="." unique_id=1211792291]
+offset_left = -610.0
+offset_top = -375.0
+offset_right = -419.0
+offset_bottom = -284.0
+theme = ExtResource("4_dc7t4")
+text = "Volver"

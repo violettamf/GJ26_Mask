@@ -1,3 +1,10 @@
 ~ start
-Amarillo: Soy [wave]Amarillo[/wave] y este es mi diálogo con Rojo.
+Amarillo: ¿Qué quieres?
+- ¿Cómo te llevas con el anfitrión?
+	Amarillo: ¿Cómo me llevo con Blanco? Son muchos años de amistad, últimamente hemos tenido [wave]algún que otro roce[/wave], puedes conocer a alguien desde hace mucho tiempo pero realmente no saber quien es en realidad. Bueno al final tú te mueves en esos mundos, ¿realmente llegas a ver a través de las máscaras que nos ponemos las personas?
+- Tenías prisa por salir del jardín, estabas tenso por algo?
+	Amarillo: [wave]Recibí una llamada importante[/wave], ser un humorista tan bueno hace que esté siempre ocupado. Por cierto, ¿te interesaría contactarme para alguna de tus fiestas? Como somos amigos puedo hacerte una oferta especial.
+- El anfitrión va a dar una gran noticia, ¿lo has visto?
+	Amarillo: No me he cruzado con él, me pregunto cuál será la gran noticia. [wave]A quien sí vi fue a Azul[/wave], se le veía decaído y algo paranoico.
+
 => END

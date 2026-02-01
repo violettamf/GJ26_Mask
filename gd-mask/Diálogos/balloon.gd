@@ -26,7 +26,7 @@ const CHARACTER_PORTRAITS := {
 	"Rojo": preload("res://Assets/Sprites/rojo.png"),
 	"Azul": preload("res://Assets/Sprites/azul.png"),
 	"Amarillo": preload("res://Assets/Sprites/amarillo.png"),
-	"Rosa": preload("res://Assets/Sprites/rosa.png")
+	"Morado": preload("res://Assets/Sprites/rosa.png")
 }
 ## Temporary game states
 var temporary_game_states: Array = []

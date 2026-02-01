@@ -1,3 +1,9 @@
 ~ start
-Amarillo: Soy [wave]Amarillo[/wave] y este es mi diálogo con Azul.
+Amarillo: ¿Qué quieres?
+- ¿Cómo te llevas con el anfitrión?
+	Amarillo: Somos amigos de la infancia, la admiración es mutua, todo lo que ha conseguido es porque se lo ha ganado.
+- Tenías prisa por salir del jardín, estabas tenso por algo?
+	Amarillo: Soy un aficionado de los caballos y [wave]hoy hay un evento importante[/wave]. Hay que estar decidido para tomar las riendas y saber qué ola surfear. Hmmm surf, debería probarlo.
+- El anfitrión va a dar una gran noticia, ¿lo has visto?
+	Amarillo: Ahora que lo mencionas hace un rato que no lo veo, seguro que está disfrutando de la fiesta. [wave]Hoy no hay horarios, solo diversión.[/wave]
 => END

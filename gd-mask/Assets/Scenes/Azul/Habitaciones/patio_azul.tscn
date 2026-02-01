@@ -1,8 +1,9 @@
-[gd_scene load_steps=0 format=3 uid="uid://x7m511sbyyir"]
+[gd_scene format=3 uid="uid://x7m511sbyyir"]
 
 [ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_i6ga4"]
 [ext_resource type="Texture2D" uid="uid://dubxoapc4tpcx" path="res://Assets/Sprites/patio.jpg" id="2_icakf"]
 [ext_resource type="PackedScene" uid="uid://b8jum6k35w078" path="res://Assets/Scenes/Azul/Personajes/azul_amarillo.tscn" id="3_i6ga4"]
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="4_icakf"]
 
 [node name="PatioAzul" type="Node2D" unique_id=2037906524]
 script = ExtResource("1_i6ga4")
@@ -13,4 +14,12 @@ script = ExtResource("1_i6ga4")
 texture = ExtResource("2_icakf")
 
 [node name="Amarillo" parent="." unique_id=197934423 instance=ExtResource("3_i6ga4")]
-position = Vector2(-343, 225)
+position = Vector2(-335, 225)
+
+[node name="Volver" type="Button" parent="." unique_id=432283011]
+offset_left = -610.0
+offset_top = -375.0
+offset_right = -419.0
+offset_bottom = -284.0
+theme = ExtResource("4_icakf")
+text = "Volver"

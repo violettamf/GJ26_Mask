@@ -1,12 +1,21 @@
-[gd_scene load_steps=3 format=3 uid="uid://brb2p0w7lyn05"]
+[gd_scene format=3 uid="uid://brb2p0w7lyn05"]
 
 [ext_resource type="Script" uid="uid://uc7nwo3613gj" path="res://Assets/Scripts/Rojo/salir_rojo.gd" id="1_ng2uv"]
 [ext_resource type="Texture2D" uid="uid://b30u5wbsb6omv" path="res://Assets/Sprites/atico.jpg" id="2_y2pam"]
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="3_y2pam"]
 
-[node name="AticoRojo" type="Node2D"]
+[node name="AticoRojo" type="Node2D" unique_id=2112097826]
 script = ExtResource("1_ng2uv")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=755402290]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1323865976]
 texture = ExtResource("2_y2pam")
+
+[node name="Volver" type="Button" parent="." unique_id=2082436149]
+offset_left = -610.0
+offset_top = -375.0
+offset_right = -419.0
+offset_bottom = -284.0
+theme = ExtResource("3_y2pam")
+text = "Volver"

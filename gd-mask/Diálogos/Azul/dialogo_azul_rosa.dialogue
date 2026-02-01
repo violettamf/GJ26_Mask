@@ -1,3 +1,9 @@
 ~ start
-Rosa: Soy [wave]Rosa[/wave] y este es mi diálogo con Azul.
+Morado: ¿Qué quieres?
+- ¿Cómo te llevas con el anfitrión?
+	Morado: Verás, eres alguien a quien considero de confianza, recientemente algunos movimientos no han resultado como esperaba y he estado [wave]vendiendo la colección del Sr. Blanco[/wave] en secreto.
+- Tenías prisa por salir del jardín, estabas tenso por algo?
+	Morado: Tengo una alergia horrible, prefiero ver las flores en un bello cuadro.
+- El anfitrión va a dar una gran noticia, ¿lo has visto?
+	Morado: Después de la demostración musical no me encontraba bien… No he visto al Sr. Blanco. Como su compañero de trabajo, ¿crees que pondrá en marcha un nuevo negocio relacionado con la esfera artística?
 => END

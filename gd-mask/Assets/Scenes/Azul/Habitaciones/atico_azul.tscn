@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_tuwnj"]
 [ext_resource type="Texture2D" uid="uid://b30u5wbsb6omv" path="res://Assets/Sprites/atico.jpg" id="2_0lqn2"]
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="3_0lqn2"]
 
 [node name="AticoAzul" type="Node2D" unique_id=2037906524]
 script = ExtResource("1_tuwnj")
@@ -10,3 +11,11 @@ script = ExtResource("1_tuwnj")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744272139]
 texture = ExtResource("2_0lqn2")
+
+[node name="Volver" type="Button" parent="." unique_id=1593126379]
+offset_left = -610.0
+offset_top = -375.0
+offset_right = -419.0
+offset_bottom = -284.0
+theme = ExtResource("3_0lqn2")
+text = "Volver"

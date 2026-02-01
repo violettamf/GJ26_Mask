@@ -7,26 +7,46 @@
 [ext_resource type="Texture2D" uid="uid://yqm0pv48q5wo" path="res://Assets/Sprites/verde_mask.png" id="5_s62qr"]
 [ext_resource type="Texture2D" uid="uid://b5das6s8iv5qf" path="res://Assets/Sprites/amarillo_mask.png" id="6_j2wkk"]
 [ext_resource type="Texture2D" uid="uid://dv02g2oads1bv" path="res://Assets/Sprites/rosa_mask.png" id="7_niigf"]
+[ext_resource type="Texture2D" uid="uid://dm3k4we3j13ul" path="res://Assets/Sprites/menu.jpg" id="8_0co75"]
+[ext_resource type="Texture2D" uid="uid://d10rwck1nbbf5" path="res://Assets/Sprites/título.png" id="9_s62qr"]
+[ext_resource type="Texture2D" uid="uid://chb2647sukg7c" path="res://Assets/Sprites/equis.png" id="10_j2wkk"]
 
 [node name="Menu" type="Node2D" unique_id=1398010801]
+position = Vector2(1, 0)
 script = ExtResource("1_bo43k")
 
 [node name="Resolver" type="Button" parent="." unique_id=1919960566]
 offset_left = -128.0
-offset_top = 95.0
+offset_top = 175.0
 offset_right = 128.0
-offset_bottom = 231.0
+offset_bottom = 311.0
 theme = ExtResource("1_8t58v")
 text = "Resolver"
+
+[node name="Elige" type="Label" parent="." unique_id=1190478089]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -195.0
+offset_right = 480.0
+offset_bottom = -130.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "¿A quién quieres poseer?"
+horizontal_alignment = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=140555799]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -500.0
-offset_top = -200.0
+offset_top = -90.00002
 offset_right = 4415.0
-offset_bottom = 698.0
+offset_bottom = 808.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.2, 0.2)
@@ -34,27 +54,57 @@ theme_override_constants/separation = 60
 
 [node name="Azul" type="Button" parent="HBoxContainer" unique_id=460927862]
 layout_mode = 2
+theme = ExtResource("1_8t58v")
 icon = ExtResource("3_3xrxe")
 flat = true
 
 [node name="Rojo" type="Button" parent="HBoxContainer" unique_id=1987312134]
 layout_mode = 2
+theme = ExtResource("1_8t58v")
 icon = ExtResource("4_0co75")
 flat = true
 
 [node name="Verde" type="Button" parent="HBoxContainer" unique_id=1290064517]
 layout_mode = 2
+theme = ExtResource("1_8t58v")
 icon = ExtResource("5_s62qr")
 flat = true
 
 [node name="Amarillo" type="Button" parent="HBoxContainer" unique_id=702206902]
 layout_mode = 2
+theme = ExtResource("1_8t58v")
 icon = ExtResource("6_j2wkk")
 flat = true
 
 [node name="Rosa" type="Button" parent="HBoxContainer" unique_id=1678264734]
 layout_mode = 2
+theme = ExtResource("1_8t58v")
 icon = ExtResource("7_niigf")
 flat = true
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1198124464]
+
+[node name="Fondo" type="Sprite2D" parent="." unique_id=1300767565]
+z_index = -1
+texture = ExtResource("8_0co75")
+
+[node name="Titulo" type="Sprite2D" parent="." unique_id=414568671]
+z_index = -1
+position = Vector2(-382.00003, -233.99997)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("9_s62qr")
+
+[node name="X" type="Sprite2D" parent="." unique_id=2032811544]
+position = Vector2(1, -6.9999995)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_j2wkk")
+
+[node name="X2" type="Sprite2D" parent="." unique_id=558997603]
+position = Vector2(197.99997, 1.9999996)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_j2wkk")
+
+[node name="X3" type="Sprite2D" parent="." unique_id=1136455291]
+position = Vector2(404.99997, -6.9999995)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_j2wkk")

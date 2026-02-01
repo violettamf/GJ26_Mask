@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cbd1471pt6g4w"]
+
+[node name="FinalMalo" type="Node2D" unique_id=568076179]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=416063239]
+
+[node name="Label" type="Label" parent="." unique_id=1987174340]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "FINAL MALO"

@@ -13,9 +13,9 @@ func _ready() -> void:
 	resolver.pressed.connect(_on_resolver_pressed)
 	azul.pressed.connect(_on_azul_pressed)
 	rojo.pressed.connect(_on_rojo_pressed)
-	verde.pressed.connect(_on_verde_pressed)
-	amarillo.pressed.connect(_on_amarillo_pressed)
-	rosa.pressed.connect(_on_rosa_pressed)
+	#verde.pressed.connect(_on_verde_pressed)
+	#amarillo.pressed.connect(_on_amarillo_pressed)
+	#rosa.pressed.connect(_on_rosa_pressed)
 	
 
 func _on_resolver_pressed() -> void:

@@ -1,3 +1,9 @@
 ~ start
-Verde: Soy [wave]Verde[/wave] y este es mi diálogo con Rojo.
+Verde: ¿Qué quieres?
+- ¿Cómo te llevas con el anfitrión?
+	Verde: Somos familia, nos llevamos estupendamente. Confiamos plenamente el uno en el otro, [wave]las cosas de familia deben quedarse en familia[/wave].
+- Tenías prisa por salir del jardín, estabas tenso por algo?
+	Verde: No necesitas saber eso. ¿Desde cuando te importa lo que haga?
+- El anfitrión va a dar una gran noticia, ¿lo has visto?
+	Verde: No he visto a mi primo. Se acerca mi cumpleaños, puede que quiera hacerme un regalo ostentoso y me esté organizando una sorpresa. La elegancia le viene de familia.
 => END
