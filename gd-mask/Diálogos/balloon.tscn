@@ -100,7 +100,7 @@ _data = {
 &"progress": SubResource("Animation_qkmqt")
 }
 
-[node name="ExampleBalloon" type="CanvasLayer" unique_id=447285585]
+[node name="ExampleBalloon2" type="CanvasLayer" unique_id=447285585]
 layer = 100
 script = ExtResource("1_36de5")
 
@@ -116,8 +116,8 @@ theme = SubResource("Theme_qq3yp")
 
 [node name="Portrait" type="TextureRect" parent="Balloon" unique_id=1141371227]
 layout_mode = 0
-offset_left = 50.0
-offset_right = 90.0
+offset_left = 45.0
+offset_right = 85.0
 offset_bottom = 40.0
 scale = Vector2(20, 20)
 texture = ExtResource("2_snwh5")
