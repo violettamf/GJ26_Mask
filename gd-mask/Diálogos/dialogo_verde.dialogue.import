@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://yaa26wsrlaal"
+path="res://.godot/imported/dialogo_verde.dialogue-f1d4c6fa95ebb1f8e69fbfefadd5634f.tres"
+
+[deps]
+
+source_file="res://Diálogos/dialogo_verde.dialogue"
+dest_files=["res://.godot/imported/dialogo_verde.dialogue-f1d4c6fa95ebb1f8e69fbfefadd5634f.tres"]
+
+[params]
+
+defaults=true

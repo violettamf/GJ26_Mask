@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://7p7k4ebm7kpv"]
+
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="1_8t58v"]
+[ext_resource type="Script" uid="uid://b3k8vab30ympa" path="res://Assets/Scripts/menu.gd" id="1_bo43k"]
+[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_bo43k"]
+
+[node name="Menu" type="Node2D" unique_id=1398010801]
+script = ExtResource("1_bo43k")
+
+[node name="Resolver" type="Button" parent="." unique_id=1919960566]
+offset_left = -128.0
+offset_top = 95.0
+offset_right = 128.0
+offset_bottom = 231.0
+theme = ExtResource("1_8t58v")
+text = "Resolver"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=140555799]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -460.0
+offset_top = -200.0
+offset_right = 460.0
+offset_bottom = -64.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 60
+
+[node name="Azul" type="Button" parent="HBoxContainer" unique_id=460927862]
+modulate = Color(0, 0, 1, 1)
+self_modulate = Color(0, 0, 1, 1)
+layout_mode = 2
+icon = ExtResource("2_bo43k")
+
+[node name="Rojo" type="Button" parent="HBoxContainer" unique_id=1987312134]
+self_modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+icon = ExtResource("2_bo43k")
+
+[node name="Verde" type="Button" parent="HBoxContainer" unique_id=1290064517]
+self_modulate = Color(0, 1, 0, 1)
+layout_mode = 2
+icon = ExtResource("2_bo43k")
+
+[node name="Amarillo" type="Button" parent="HBoxContainer" unique_id=702206902]
+self_modulate = Color(1, 1, 0, 1)
+layout_mode = 2
+icon = ExtResource("2_bo43k")
+
+[node name="Rosa" type="Button" parent="HBoxContainer" unique_id=1678264734]
+self_modulate = Color(1, 0, 1, 1)
+layout_mode = 2
+icon = ExtResource("2_bo43k")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1198124464]

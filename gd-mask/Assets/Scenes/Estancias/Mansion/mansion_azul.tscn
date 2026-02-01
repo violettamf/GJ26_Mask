@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://b0jvh8x5tma1c"]
+
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="1_3jicu"]
+[ext_resource type="Script" uid="uid://cyxlvpsfuabxs" path="res://Assets/Scripts/Azul/mansion_azul_menu.gd" id="1_l73mv"]
+
+[node name="MansionAzul" type="Node2D" unique_id=875531274]
+script = ExtResource("1_l73mv")
+
+[node name="Salon" type="Button" parent="." unique_id=1267452629]
+offset_left = -500.0
+offset_top = -50.0
+offset_right = -100.0
+offset_bottom = 50.0
+theme = ExtResource("1_3jicu")
+text = "Salón"
+
+[node name="Salir" type="Button" parent="." unique_id=1626871394]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -257.5
+offset_top = 250.0
+offset_right = 257.5
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_3jicu")
+text = "Cambiar máscara"
+
+[node name="Cocina" type="Button" parent="." unique_id=540684045]
+offset_left = 100.0
+offset_top = -50.0
+offset_right = 500.0
+offset_bottom = 50.0
+theme = ExtResource("1_3jicu")
+text = "Cocina"
+
+[node name="Patio" type="Button" parent="." unique_id=718193828]
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 500.0
+offset_bottom = 200.0
+theme = ExtResource("1_3jicu")
+text = "Patio"
+
+[node name="Dormitorio" type="Button" parent="." unique_id=208033924]
+offset_left = -500.0
+offset_top = -200.0
+offset_right = -100.0
+offset_bottom = -100.0
+theme = ExtResource("1_3jicu")
+text = "Dormitorio"
+
+[node name="Atico" type="Button" parent="." unique_id=1468789562]
+offset_left = 100.0
+offset_top = -200.0
+offset_right = 500.0
+offset_bottom = -100.0
+theme = ExtResource("1_3jicu")
+text = "Ático"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2029889607]
