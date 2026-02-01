@@ -99,7 +99,7 @@ _data = {
 &"progress": SubResource("Animation_qkmqt")
 }
 
-[node name="ExampleBalloon" type="CanvasLayer"]
+[node name="ExampleBalloon2" type="CanvasLayer" unique_id=447285585]
 layer = 100
 script = ExtResource("1_36de5")
 
@@ -113,7 +113,17 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_qq3yp")
 
-[node name="MarginContainer" type="MarginContainer" parent="Balloon"]
+[node name="Portrait" type="TextureRect" parent="Balloon" unique_id=1141371227]
+layout_mode = 0
+offset_left = 45.0
+offset_right = 85.0
+offset_bottom = 40.0
+scale = Vector2(20, 20)
+texture = ExtResource("2_snwh5")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="Balloon" unique_id=1179268274]
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
