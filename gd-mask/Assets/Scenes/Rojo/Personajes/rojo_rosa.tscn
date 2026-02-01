@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://bte7qqysyj72a"]
+[gd_scene format=3 uid="uid://bte7qqysyj72a"]
 
 [ext_resource type="Script" uid="uid://cit6x253j1w8k" path="res://Assets/Scripts/Dialogos/Rojo/dialogo_rojo_rosa.gd" id="1_j4q6o"]
-[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_qk8y5"]
+[ext_resource type="Texture2D" uid="uid://dv02g2oads1bv" path="res://Assets/Sprites/rosa_mask.png" id="2_j4q6o"]
 
-[node name="RojoRosa" type="Node2D"]
+[node name="RojoRosa" type="Node2D" unique_id=1480116557]
 script = ExtResource("1_j4q6o")
 
-[node name="Boton" type="Button" parent="."]
-self_modulate = Color(1, 0, 1, 1)
-offset_right = 8.0
-offset_bottom = 8.0
-icon = ExtResource("2_qk8y5")
+[node name="Boton" type="Button" parent="." unique_id=325295255]
+offset_left = -98.99999
+offset_top = -80.99999
+offset_right = 836.0
+offset_bottom = 817.0
+scale = Vector2(0.2, 0.2)
+icon = ExtResource("2_j4q6o")
+flat = true

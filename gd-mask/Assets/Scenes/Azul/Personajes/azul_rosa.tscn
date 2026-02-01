@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://bg46csqjetgc4"]
+[gd_scene format=3 uid="uid://bg46csqjetgc4"]
 
-[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="1_t03tn"]
 [ext_resource type="Script" uid="uid://c2xpl4uy6qxpy" path="res://Assets/Scripts/Dialogos/Azul/dialogo_azul_rosa.gd" id="1_yln4a"]
+[ext_resource type="Texture2D" uid="uid://dv02g2oads1bv" path="res://Assets/Sprites/rosa_mask.png" id="2_yahic"]
 
-[node name="AzulRosa" type="Node2D"]
+[node name="AzulRosa" type="Node2D" unique_id=958326320]
 script = ExtResource("1_yln4a")
 
-[node name="Boton" type="Button" parent="."]
-self_modulate = Color(1, 0, 1, 1)
-offset_right = 8.0
-offset_bottom = 8.0
-icon = ExtResource("1_t03tn")
+[node name="Boton" type="Button" parent="." unique_id=136834013]
+offset_left = -98.99999
+offset_top = -80.99999
+offset_right = 836.0
+offset_bottom = 817.0
+scale = Vector2(0.2, 0.2)
+icon = ExtResource("2_yahic")
+flat = true

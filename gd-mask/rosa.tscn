@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://v6mwveyvhc4o"]
+
+[ext_resource type="Script" uid="uid://c2xpl4uy6qxpy" path="res://Assets/Scripts/Dialogos/Azul/dialogo_azul_rosa.gd" id="1_jgcyg"]
+[ext_resource type="Texture2D" path="res://Assets/Sprites/rosa_mask.png" id="2_hs5u3"]
+
+[node name="Rosa" type="Node2D" unique_id=197934423]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_jgcyg")
+
+[node name="Boton" type="Button" parent="." unique_id=1354669375]
+offset_left = -218.0
+offset_top = -226.0
+offset_right = 717.0
+offset_bottom = 672.0
+scale = Vector2(0.5, 0.5)
+icon = ExtResource("2_hs5u3")
+flat = true

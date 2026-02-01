@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b8a4d0hylkeb2"]
+
+[ext_resource type="Script" uid="uid://xp37e1cuu8hp" path="res://Assets/Scripts/Dialogos/Azul/dialogo_azul_verde.gd" id="1_stwq8"]
+
+[node name="Verde" type="Node2D" unique_id=197934423]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_stwq8")
+
+[node name="Boton" type="Button" parent="." unique_id=1354669375]
+offset_left = -234.0
+offset_top = -258.0
+offset_right = 701.0
+offset_bottom = 640.0
+scale = Vector2(0.5, 0.5)
+flat = true

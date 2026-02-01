@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://cktu74xp5f5me"]
+[gd_scene format=3 uid="uid://cktu74xp5f5me"]
 
 [ext_resource type="Script" uid="uid://d2maasg3yak20" path="res://Assets/Scripts/Dialogos/Rojo/dialogo_rojo_verde.gd" id="1_2gtg3"]
-[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_cb1jx"]
+[ext_resource type="Texture2D" uid="uid://yqm0pv48q5wo" path="res://Assets/Sprites/verde_mask.png" id="2_2gtg3"]
 
-[node name="RojoVerde" type="Node2D"]
+[node name="RojoVerde" type="Node2D" unique_id=1590110785]
 script = ExtResource("1_2gtg3")
 
-[node name="Boton" type="Button" parent="."]
-self_modulate = Color(0, 1, 0, 1)
-offset_right = 8.0
-offset_bottom = 8.0
-icon = ExtResource("2_cb1jx")
+[node name="Boton" type="Button" parent="." unique_id=602694460]
+offset_left = -92.99999
+offset_top = -84.99999
+offset_right = 842.0
+offset_bottom = 813.0
+scale = Vector2(0.2, 0.2)
+icon = ExtResource("2_2gtg3")
+flat = true

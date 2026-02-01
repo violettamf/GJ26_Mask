@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://bmnfadeg4bvnl"]
+[gd_scene format=3 uid="uid://bmnfadeg4bvnl"]
 
 [ext_resource type="Script" uid="uid://bbm26mukw5b2w" path="res://Assets/Scripts/Dialogos/Rojo/dialogo_rojo_amarillo.gd" id="1_b1a54"]
-[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_e2noy"]
+[ext_resource type="Texture2D" uid="uid://b5das6s8iv5qf" path="res://Assets/Sprites/amarillo_mask.png" id="2_b1a54"]
 
-[node name="RojoAmarillo" type="Node2D"]
+[node name="RojoAmarillo" type="Node2D" unique_id=635056074]
 script = ExtResource("1_b1a54")
 
-[node name="Boton" type="Button" parent="."]
-self_modulate = Color(1, 1, 0, 1)
-offset_right = 8.0
-offset_bottom = 8.0
-icon = ExtResource("2_e2noy")
+[node name="Boton" type="Button" parent="." unique_id=1063730709]
+offset_left = -101.0
+offset_top = -96.0
+offset_right = 834.0
+offset_bottom = 802.0
+scale = Vector2(0.2, 0.2)
+icon = ExtResource("2_b1a54")
+flat = true

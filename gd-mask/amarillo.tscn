@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cgv8m56k543bm"]
+
+[ext_resource type="Script" uid="uid://xj5tqs5p5way" path="res://Assets/Scripts/Dialogos/Azul/dialogo_azul_amarillo.gd" id="1_7nl0x"]
+[ext_resource type="Texture2D" path="res://Assets/Sprites/amarillo_mask.png" id="2_y1efg"]
+
+[node name="Amarillo" type="Node2D" unique_id=197934423]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_7nl0x")
+
+[node name="Boton" type="Button" parent="." unique_id=1354669375]
+offset_left = -220.0
+offset_top = -212.0
+offset_right = 715.0
+offset_bottom = 686.0
+scale = Vector2(0.5, 0.5)
+icon = ExtResource("2_y1efg")
+flat = true

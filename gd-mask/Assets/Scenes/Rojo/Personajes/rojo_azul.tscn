@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://bfv34jesie2c"]
+[gd_scene format=3 uid="uid://bfv34jesie2c"]
 
 [ext_resource type="Script" uid="uid://b1ow1qygwplsg" path="res://Assets/Scripts/Dialogos/Rojo/dialogo_rojo_azul.gd" id="1_40w5w"]
-[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_hb0s4"]
+[ext_resource type="Texture2D" uid="uid://bie6rto1eljgt" path="res://Assets/Sprites/azul_mask.png" id="2_i0qor"]
 
-[node name="RojoAzul" type="Node2D"]
+[node name="RojoAzul" type="Node2D" unique_id=2054058858]
 script = ExtResource("1_40w5w")
 
-[node name="Boton" type="Button" parent="."]
-self_modulate = Color(0, 0, 1, 1)
-offset_right = 8.0
-offset_bottom = 8.0
-icon = ExtResource("2_hb0s4")
+[node name="Boton" type="Button" parent="." unique_id=1410006074]
+offset_left = -108.99999
+offset_top = -87.99999
+offset_right = 826.0
+offset_bottom = 810.0
+scale = Vector2(0.2, 0.2)
+icon = ExtResource("2_i0qor")
+flat = true

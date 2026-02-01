@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://8geaxsh30fbp"]
+
+[ext_resource type="Script" uid="uid://bbppam3wknrjy" path="res://Assets/Scripts/Dialogos/Azul/dialogo_azul_rojo.gd" id="1_caj1p"]
+[ext_resource type="Texture2D" path="res://Assets/Sprites/rojo_mask.png" id="2_3f0sn"]
+
+[node name="Rojo" type="Node2D" unique_id=197934423]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_caj1p")
+
+[node name="Boton" type="Button" parent="." unique_id=1354669375]
+offset_left = -228.0
+offset_top = -236.0
+offset_right = 707.0
+offset_bottom = 662.0
+scale = Vector2(0.5, 0.5)
+icon = ExtResource("2_3f0sn")
+flat = true
