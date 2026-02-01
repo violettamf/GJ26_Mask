@@ -2,7 +2,11 @@
 
 [ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="1_8t58v"]
 [ext_resource type="Script" uid="uid://b3k8vab30ympa" path="res://Assets/Scripts/menu.gd" id="1_bo43k"]
-[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_bo43k"]
+[ext_resource type="Texture2D" uid="uid://bie6rto1eljgt" path="res://Assets/Sprites/azul_mask.png" id="3_3xrxe"]
+[ext_resource type="Texture2D" uid="uid://cldit28whbmn3" path="res://Assets/Sprites/rojo_mask.png" id="4_0co75"]
+[ext_resource type="Texture2D" uid="uid://yqm0pv48q5wo" path="res://Assets/Sprites/verde_mask.png" id="5_s62qr"]
+[ext_resource type="Texture2D" uid="uid://b5das6s8iv5qf" path="res://Assets/Sprites/amarillo_mask.png" id="6_j2wkk"]
+[ext_resource type="Texture2D" uid="uid://dv02g2oads1bv" path="res://Assets/Sprites/rosa_mask.png" id="7_niigf"]
 
 [node name="Menu" type="Node2D" unique_id=1398010801]
 script = ExtResource("1_bo43k")
@@ -19,38 +23,38 @@ text = "Resolver"
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -460.0
+offset_left = -500.0
 offset_top = -200.0
-offset_right = 460.0
-offset_bottom = -64.0
+offset_right = 4415.0
+offset_bottom = 698.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(0.2, 0.2)
 theme_override_constants/separation = 60
 
 [node name="Azul" type="Button" parent="HBoxContainer" unique_id=460927862]
-modulate = Color(0, 0, 1, 1)
-self_modulate = Color(0, 0, 1, 1)
 layout_mode = 2
-icon = ExtResource("2_bo43k")
+icon = ExtResource("3_3xrxe")
+flat = true
 
 [node name="Rojo" type="Button" parent="HBoxContainer" unique_id=1987312134]
-self_modulate = Color(1, 0, 0, 1)
 layout_mode = 2
-icon = ExtResource("2_bo43k")
+icon = ExtResource("4_0co75")
+flat = true
 
 [node name="Verde" type="Button" parent="HBoxContainer" unique_id=1290064517]
-self_modulate = Color(0, 1, 0, 1)
 layout_mode = 2
-icon = ExtResource("2_bo43k")
+icon = ExtResource("5_s62qr")
+flat = true
 
 [node name="Amarillo" type="Button" parent="HBoxContainer" unique_id=702206902]
-self_modulate = Color(1, 1, 0, 1)
 layout_mode = 2
-icon = ExtResource("2_bo43k")
+icon = ExtResource("6_j2wkk")
+flat = true
 
 [node name="Rosa" type="Button" parent="HBoxContainer" unique_id=1678264734]
-self_modulate = Color(1, 0, 1, 1)
 layout_mode = 2
-icon = ExtResource("2_bo43k")
+icon = ExtResource("7_niigf")
+flat = true
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1198124464]

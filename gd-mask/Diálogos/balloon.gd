@@ -19,6 +19,15 @@ extends CanvasLayer
 
 ## A sound player for voice lines (if they exist).
 @onready var audio_stream_player: AudioStreamPlayer = %AudioStreamPlayer
+@onready var portrait: TextureRect = %Balloon/Portrait
+
+const CHARACTER_PORTRAITS := {
+	"Amarillo": preload("res://Assets/Sprites/amarillo.png"),
+	"Verde": preload("res://Assets/Sprites/verde.png"),
+	"Rojo": preload("res://Assets/Sprites/rojo.png"),
+	"Azul": preload("res://Assets/Sprites/azul.png"),
+	"Rosa": preload("res://Assets/Sprites/rosa.png")
+}
 
 ## Temporary game states
 var temporary_game_states: Array = []
@@ -126,6 +135,15 @@ func apply_dialogue_line() -> void:
 	balloon.focus_mode = Control.FOCUS_ALL
 	balloon.grab_focus()
 
+	# Update portrait
+	if dialogue_line.character.is_empty():
+		portrait.hide()
+	else:
+		portrait.show()
+		if CHARACTER_PORTRAITS.has(dialogue_line.character):
+			portrait.texture = CHARACTER_PORTRAITS[dialogue_line.character]
+		else:
+			portrait.texture = null
 	character_label.visible = not dialogue_line.character.is_empty()
 	character_label.text = tr(dialogue_line.character, "dialogue")
 
