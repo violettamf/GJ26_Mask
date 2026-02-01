@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c8c1c13toyttq"
+path="res://.godot/imported/dialogo_rojo_rosa.dialogue-5f941c4c9bb42c1b8de47881fa59c3b1.tres"
+
+[deps]
+
+source_file="res://Diálogos/Rojo/dialogo_rojo_rosa.dialogue"
+dest_files=["res://.godot/imported/dialogo_rojo_rosa.dialogue-5f941c4c9bb42c1b8de47881fa59c3b1.tres"]
+
+[params]
+
+defaults=true

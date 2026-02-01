@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjt0p136abfdy"]
+
+[ext_resource type="Script" uid="uid://uc7nwo3613gj" path="res://Assets/Scripts/Rojo/salir_rojo.gd" id="1_cx507"]
+[ext_resource type="Texture2D" uid="uid://dubxoapc4tpcx" path="res://Assets/Sprites/patio.jpg" id="2_7g33k"]
+[ext_resource type="PackedScene" uid="uid://bmnfadeg4bvnl" path="res://Assets/Scenes/Rojo/Personajes/rojo_amarillo.tscn" id="3_cx507"]
+
+[node name="PatioRojo" type="Node2D"]
+script = ExtResource("1_cx507")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_7g33k")
+
+[node name="RojoAmarillo" parent="." instance=ExtResource("3_cx507")]
+position = Vector2(-335, 223)

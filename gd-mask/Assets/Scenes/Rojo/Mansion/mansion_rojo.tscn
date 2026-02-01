@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://by6khi81g2adm"]
+
+[ext_resource type="Script" uid="uid://3b3laldc7o6q" path="res://Assets/Scripts/Rojo/mansion_rojo_menu.gd" id="1_t54x0"]
+[ext_resource type="Theme" uid="uid://dlkdup4ktea5i" path="res://Assets/Botones/botones_mansion.tres" id="2_18a7b"]
+
+[node name="MansionRojo" type="Node2D"]
+script = ExtResource("1_t54x0")
+
+[node name="Salon" type="Button" parent="."]
+offset_left = -500.0
+offset_top = -50.0
+offset_right = -100.0
+offset_bottom = 50.0
+theme = ExtResource("2_18a7b")
+text = "Salón"
+
+[node name="Salir" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -257.5
+offset_top = 250.0
+offset_right = 257.5
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_18a7b")
+text = "Cambiar máscara"
+
+[node name="Cocina" type="Button" parent="."]
+offset_left = 100.0
+offset_top = -50.0
+offset_right = 500.0
+offset_bottom = 50.0
+theme = ExtResource("2_18a7b")
+text = "Cocina"
+
+[node name="Patio" type="Button" parent="."]
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 500.0
+offset_bottom = 200.0
+theme = ExtResource("2_18a7b")
+text = "Patio"
+
+[node name="Dormitorio" type="Button" parent="."]
+offset_left = -500.0
+offset_top = -200.0
+offset_right = -100.0
+offset_bottom = -100.0
+theme = ExtResource("2_18a7b")
+text = "Dormitorio"
+
+[node name="Atico" type="Button" parent="."]
+offset_left = 100.0
+offset_top = -200.0
+offset_right = 500.0
+offset_bottom = -100.0
+theme = ExtResource("2_18a7b")
+text = "Ático"
+
+[node name="Camera2D" type="Camera2D" parent="."]

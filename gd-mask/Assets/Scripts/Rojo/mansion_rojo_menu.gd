@@ -16,19 +16,19 @@ func _ready() -> void:
 	salir.pressed.connect(_on_salir_pressed)
 
 func _on_cocina_pressed() -> void:
-	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/cocina_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Habitaciones/cocina_rojo.tscn")
 
 func _on_patio_pressed() -> void:
-	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/patio_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Habitaciones/patio_rojo.tscn")
 
 func _on_salon_pressed() -> void:
-	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/salon_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Habitaciones/salon_rojo.tscn")
 
 func _on_dormitorio_pressed() -> void:
-	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/dormitorio_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Habitaciones/dormitorio_rojo.tscn")
 
 func _on_atico_pressed() -> void:
-	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Habitaciones/atico_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Habitaciones/atico_rojo.tscn")
 
 func _on_salir_pressed() -> void:
 	get_tree().change_scene_to_file("res://Assets/Scenes/Menu.tscn")

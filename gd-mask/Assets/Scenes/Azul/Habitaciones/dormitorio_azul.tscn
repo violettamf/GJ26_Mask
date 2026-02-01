@@ -1,0 +1,20 @@
+[gd_scene load_steps=0 format=3 uid="uid://uqv50iqa4k7x"]
+
+[ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_5v5gc"]
+[ext_resource type="Texture2D" uid="uid://e0o7xemwm2s8" path="res://Assets/Sprites/dormitorio.jpg" id="2_5v5gc"]
+[ext_resource type="PackedScene" uid="uid://bjbeebgnompcb" path="res://Assets/Scenes/Azul/Personajes/azul_verde.tscn" id="3_7acwj"]
+[ext_resource type="PackedScene" uid="uid://bg46csqjetgc4" path="res://Assets/Scenes/Azul/Personajes/azul_rosa.tscn" id="4_itltd"]
+
+[node name="DormitorioAzul" type="Node2D" unique_id=2037906524]
+script = ExtResource("1_5v5gc")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1197860072]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744272139]
+texture = ExtResource("2_5v5gc")
+
+[node name="Verde" parent="." unique_id=197934423 instance=ExtResource("3_7acwj")]
+position = Vector2(99, 131)
+
+[node name="Rosa" parent="." unique_id=84122506 instance=ExtResource("4_itltd")]
+position = Vector2(-117, 132)

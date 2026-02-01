@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dlavipo05pfgs"]
+
+[ext_resource type="Script" uid="uid://uc7nwo3613gj" path="res://Assets/Scripts/Rojo/salir_rojo.gd" id="1_d0cds"]
+[ext_resource type="Texture2D" uid="uid://b30u5wbsb6omv" path="res://Assets/Sprites/atico.jpg" id="2_0sor6"]
+[ext_resource type="PackedScene" uid="uid://cr1w1nmtocifr" path="res://Assets/Scenes/Azul/Personajes/azul_rojo.tscn" id="3_c143k"]
+
+[node name="SalonRojo" type="Node2D"]
+script = ExtResource("1_d0cds")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_0sor6")
+
+[node name="Rojo" parent="." instance=ExtResource("3_c143k")]
+visible = false
+position = Vector2(25, 216)

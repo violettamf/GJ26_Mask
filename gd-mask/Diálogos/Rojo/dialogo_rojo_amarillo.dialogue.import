@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://d3rt4s1uyua26"
+path="res://.godot/imported/dialogo_rojo_amarillo.dialogue-88d49bdf2b9e97e5c4294f199c79d927.tres"
+
+[deps]
+
+source_file="res://Diálogos/Rojo/dialogo_rojo_amarillo.dialogue"
+dest_files=["res://.godot/imported/dialogo_rojo_amarillo.dialogue-88d49bdf2b9e97e5c4294f199c79d927.tres"]
+
+[params]
+
+defaults=true

@@ -23,11 +23,11 @@ func _on_resolver_pressed() -> void:
 
 func _on_azul_pressed() -> void:
 	mascara = "azul"
-	get_tree().change_scene_to_file("res://Assets/Scenes/Estancias/Mansion/mansion_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Azul/Mansion/mansion_azul.tscn")
 
 func _on_rojo_pressed() -> void:
 	mascara = "rojo"
-	get_tree().change_scene_to_file("res://Assets/Scenes/Estancias/Mansion/mansion_azul.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/Rojo/Mansion/mansion_rojo.tscn")
 
 func _on_verde_pressed() -> void:
 	mascara = "verde"
