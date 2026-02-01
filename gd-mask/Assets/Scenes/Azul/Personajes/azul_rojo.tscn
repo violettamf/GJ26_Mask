@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr1w1nmtocifr"]
+
+[ext_resource type="Script" uid="uid://bbppam3wknrjy" path="res://Assets/Scripts/Dialogos/Azul/dialogo_azul_rojo.gd" id="1_w72qw"]
+[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_tbrmv"]
+
+[node name="AzulRojo" type="Node2D"]
+script = ExtResource("1_w72qw")
+
+[node name="Boton" type="Button" parent="."]
+self_modulate = Color(1, 0, 0, 1)
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("2_tbrmv")

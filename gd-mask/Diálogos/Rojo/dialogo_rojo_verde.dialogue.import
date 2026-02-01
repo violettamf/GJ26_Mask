@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cwpnhuddeomma"
+path="res://.godot/imported/dialogo_rojo_verde.dialogue-8c053b0ace9070ad7a3bc5702f22218f.tres"
+
+[deps]
+
+source_file="res://Diálogos/Rojo/dialogo_rojo_verde.dialogue"
+dest_files=["res://.godot/imported/dialogo_rojo_verde.dialogue-8c053b0ace9070ad7a3bc5702f22218f.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dncxgohvrdwh7"]
+
+[ext_resource type="Script" uid="uid://dh5wcedctsvdb" path="res://Assets/Scripts/Azul/salir_azul.gd" id="1_vh6vt"]
+[ext_resource type="Texture2D" uid="uid://b4rmehy01w6ud" path="res://Assets/Sprites/cocina.jpg" id="2_vh6vt"]
+[ext_resource type="PackedScene" uid="uid://bfv34jesie2c" path="res://Assets/Scenes/Rojo/Personajes/rojo_azul.tscn" id="3_n4631"]
+
+[node name="CocinaAzul" type="Node2D"]
+script = ExtResource("1_vh6vt")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_vh6vt")
+
+[node name="Azul" parent="." instance=ExtResource("3_n4631")]
+visible = false
+position = Vector2(444, -55)

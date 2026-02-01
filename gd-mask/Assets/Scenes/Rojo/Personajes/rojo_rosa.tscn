@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bte7qqysyj72a"]
+
+[ext_resource type="Script" uid="uid://cit6x253j1w8k" path="res://Assets/Scripts/Dialogos/Rojo/dialogo_rojo_rosa.gd" id="1_j4q6o"]
+[ext_resource type="Texture2D" uid="uid://dx7dcn2glg3nh" path="res://icon.svg" id="2_qk8y5"]
+
+[node name="RojoRosa" type="Node2D"]
+script = ExtResource("1_j4q6o")
+
+[node name="Boton" type="Button" parent="."]
+self_modulate = Color(1, 0, 1, 1)
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("2_qk8y5")

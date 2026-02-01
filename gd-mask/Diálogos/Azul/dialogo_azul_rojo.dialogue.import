@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bcjvgoors1sr2"
+path="res://.godot/imported/dialogo_azul_rojo.dialogue-504644b23bfaf254294fb16cb812c73f.tres"
+
+[deps]
+
+source_file="res://Diálogos/Azul/dialogo_azul_rojo.dialogue"
+dest_files=["res://.godot/imported/dialogo_azul_rojo.dialogue-504644b23bfaf254294fb16cb812c73f.tres"]
+
+[params]
+
+defaults=true
