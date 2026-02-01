@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://yaa26wsrlaal"
+path="res://.godot/imported/dialogo_azul_verde.dialogue-befacada1c17669064914ecb55293018.tres"
+
+[deps]
+
+source_file="res://Diálogos/Azul/dialogo_azul_verde.dialogue"
+dest_files=["res://.godot/imported/dialogo_azul_verde.dialogue-befacada1c17669064914ecb55293018.tres"]
+
+[params]
+
+defaults=true
